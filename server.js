@@ -1,20 +1,31 @@
-const express = require("express");
-const products = require('../ecommerce-store-backend/data');
+import express from "express";
+import dotenv from "dotenv";
+import colors from 'colors';
+import connectDB from '../ecommerce-store-backend/config/db.js'
+import products from "../ecommerce-store-backend/data.js";
 
+dotenv.config();
+connectDB();
+colors.enable()
 //NPM RUN START VS NODE SERVER.JS -> ADJUSTED IN PACKAGE.JSON
-const app = express()
+const app = express();
 
-app.get('/', (req, res) => {
-    res.send('API is Running...');
-})
+app.get("/", (req, res) => {
+  res.send("API is Running...");
+});
 
 app.get("/api/products", (req, res) => {
-    res.json(products)
-}) 
+  res.json(products);
+});
 
 app.get("/api/products/:id", (req, res) => {
-    const product = products.find(p => p._id === req.params.id)
-    res.json(product)
-})
+  const product = products.find((p) => p._id === req.params.id);
+  res.json(product);
+});
 
-app.listen(5000, console.log('Server running on port 5000'));
+const PORT = process.env.PORT || 5000;
+
+app.listen(
+  PORT,
+  console.log(`SERVER RUNNING IN ${process.env.NODE_ENV} MODE ON PORT ${PORT}`.yellow.bold)
+);
