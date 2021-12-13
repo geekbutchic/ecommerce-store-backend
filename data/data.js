@@ -1,19 +1,19 @@
 const products = [
     {
-        _id: "1",
+        "_id": "1",
         name: "RECTANGLE PEACOAT IN WOOL NAVY",
         image: "/images/image-4.jpeg",
         description: "90% WOOL 10% POLYAMIDE - MIDDLE BACK VENT - 6 CELINE-ENGRAVED HORN BUTTONS - CLASSIC FIT",
         brand: "CELINE",
         category: "Men's Winter Wear",
         price: "2,450",
-        countInStock: "5",
+        countInStock: "10",
         availableSizes: ["XS", "S", "M", "L"],
         rating: 3.0,
         numReviews: 3,
     },
     {
-        _id: "2",
+        "_id": "2",
         name: "RECTANGLE PEACOAT IN WOOL NAVY",
         image: "/images/image-4.jpeg",
         description: "90% WOOL 10% POLYAMIDE - MIDDLE BACK VENT - 6 CELINE-ENGRAVED HORN BUTTONS - CLASSIC FIT",
@@ -26,7 +26,7 @@ const products = [
         numReviews: 12,
     },
     {
-        _id: "3",
+        "_id": "3",
         name: "RECTANGLE PEACOAT IN WOOL NAVY",
         image: "/images/image-4.jpeg",
         description: "90% WOOL 10% POLYAMIDE - MIDDLE BACK VENT - 6 CELINE-ENGRAVED HORN BUTTONS - CLASSIC FIT",
@@ -39,7 +39,7 @@ const products = [
         numReviews: 10,
     },
     {
-        _id: "4",
+        "_id": "4",
         name: "RECTANGLE PEACOAT IN WOOL NAVY",
         image: "/images/image-4.jpeg",
         description: "90% WOOL 10% POLYAMIDE - MIDDLE BACK VENT - 6 CELINE-ENGRAVED HORN BUTTONS - CLASSIC FIT",
@@ -52,7 +52,7 @@ const products = [
         numReviews: 9,
     },
     {
-        _id: "5",
+        "_id": "5",
         name: "RECTANGLE PEACOAT IN WOOL NAVY",
         image: "/images/image-4.jpeg",
         description: "90% WOOL 10% POLYAMIDE - MIDDLE BACK VENT - 6 CELINE-ENGRAVED HORN BUTTONS - CLASSIC FIT",
@@ -65,7 +65,7 @@ const products = [
         numReviews: 3,
     },
     {
-        _id: "6",
+        "_id": "6",
         name: "RECTANGLE PEACOAT IN WOOL NAVY",
         image: "/images/image-4.jpeg",
         description: "90% WOOL 10% POLYAMIDE - MIDDLE BACK VENT - 6 CELINE-ENGRAVED HORN BUTTONS - CLASSIC FIT",
@@ -78,7 +78,7 @@ const products = [
         numReviews: 7,
     },
     {
-        _id: "7",
+        "_id": "7",
         name: "RECTANGLE PEACOAT IN WOOL NAVY",
         image: "/images/image-4.jpeg",
         description: "90% WOOL 10% POLYAMIDE - MIDDLE BACK VENT - 6 CELINE-ENGRAVED HORN BUTTONS - CLASSIC FIT",
@@ -91,7 +91,7 @@ const products = [
         numReviews: 11,
     },
     {
-        _id: "8",
+        "_id": "8",
         name: "RECTANGLE PEACOAT IN WOOL NAVY",
         image: "/images/image-4.jpeg",
         description: "90% WOOL 10% POLYAMIDE - MIDDLE BACK VENT - 6 CELINE-ENGRAVED HORN BUTTONS - CLASSIC FIT",
@@ -106,3 +106,5 @@ const products = [
 ]
 
 export default products
+
+
