@@ -23,7 +23,9 @@
     "server": "nodemon backend server",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "data:import":"node backend/seeder",
+    "data:destroy":"node backend/seeder -d"
   },
   "eslintConfig": {
     "extends": [

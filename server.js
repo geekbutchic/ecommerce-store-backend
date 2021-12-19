@@ -3,7 +3,11 @@ import dotenv from "dotenv";
 import colors from 'colors';
 import connectDB from './config/db.js'
 import products from "./data/data.js";
-
+//NODE 14.4 CAN USE ES MODULES .JS
+//ES MODULES - IMPORT SYNTAX
+//NODE VERSION - v16.2.0
+//TYPE: MODULE
+//FILES REQUIRE .JS
 
 dotenv.config();
 connectDB();
@@ -16,7 +20,8 @@ app.get("/", (req, res) => {
 });
 
 app.get("/api/products", (req, res) => {
-  // throw new Error('Some Error')
+  // res.status(401)
+  // throw new Error('Not Authorized')
   res.json(products);
 });
 
